@@ -13,8 +13,7 @@ def about():
 def exam():
     return render_template('exam.html')
 
-@app.route('/index ')
-def index():
-    return render_template('index.html')
+
+
 
 
